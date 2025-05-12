@@ -109,5 +109,5 @@ def visualize_csv_with_gpt4o(csv_path: str) -> str:
 
 # Run the server with stdio transport
 if __name__ == "__main__":
-    mcp.run(transport="https")
+    mcp.run(transport="http")
     
